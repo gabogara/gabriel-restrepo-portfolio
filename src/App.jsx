@@ -4,7 +4,7 @@ import HomePage from "./pages/HomePage";
 import RootLayout from "./layouts/RootLayout";
 import NotFoundPage from "./pages/NotFoundPAge";
 
-function App() {
+const App = () => {
   return (
     <>
       <div>

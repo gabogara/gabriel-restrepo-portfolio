@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { PROJECTS } from "../data/projects";
 
-export default function HomePage() {
+const HomePage = () => {
   return (
     <div>
       <section>
@@ -40,4 +40,6 @@ export default function HomePage() {
       </section>
     </div>
   );
-}
+};
+
+export default HomePage;
