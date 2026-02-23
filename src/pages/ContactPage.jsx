@@ -2,15 +2,15 @@ import SectionHeader from "../components/SectionHeader";
 
 const ContactPage = () => {
   return (
-    <div>
-      <section>
-        <div>
+    <div className="page">
+      <section className="section">
+        <div className="container">
           <SectionHeader title="Contact" subtitle="Let’s connect" />
 
-          <div>
-            <p>The fastest way to reach me is email.</p>
+          <div className="card">
+            <p className="lead">The fastest way to reach me is email.</p>
 
-            <p>
+            <p className="muted">
               Email:{" "}
               <a href="mailto:gabriel.acosta.rest@gmail.com">
                 gabriel.acosta.rest@gmail.com

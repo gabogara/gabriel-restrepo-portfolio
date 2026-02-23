@@ -4,11 +4,11 @@ import { PROJECTS } from "../data/projects";
 
 const ProjectsPage = () => {
   return (
-    <div>
-      <section>
-        <div>
+    <div className="page">
+      <section className="section">
+        <div className="container">
           <SectionHeader title="Projects" subtitle="Selected work" />
-          <div>
+          <div className="grid">
             {PROJECTS.map((p) => (
               <ProjectCard key={p.title} project={p} />
             ))}
