@@ -1,12 +1,8 @@
 const SectionHeader = ({ title, subtitle }) => {
   return (
     <header className="sectionHeader">
-      <div className="kicker mono">
-        {"// "}
-        {subtitle.toUpperCase()}
-      </div>
-      <h2 className="titleGradient h2">{title}</h2>
-      <div className="underlineGradient" />
+      <p> {subtitle} </p>
+      <h2>{title}</h2>
     </header>
   );
 };
