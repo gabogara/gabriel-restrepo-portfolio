@@ -3,38 +3,45 @@ import { PROJECTS } from "../data/projects";
 
 const HomePage = () => {
   return (
-    <div>
-      <section>
-        <div>
-          <p>Hi, I am Gabriel</p>
-          <h1>Full-Stack Software Engineer</h1>
-          <p>
+    <div className="page">
+      <section className="section">
+        <div className="container">
+          <p className="kicker">Hi, I am Gabriel</p>
+          <h1 className="h1">Full-Stack Software Engineer</h1>
+          <p className="lead">
             I build practical web apps with clean architecture, thoughtful UX,
             and real-world features like auth, CRUD, and maps.
           </p>
 
-          <div>
-            <Link to="/projects">View Projects</Link>
-            <Link to="/contact">Contact</Link>
+          <div className="actions">
+            <Link className="btn btn-primary" to="/projects">
+              View Projects
+            </Link>
+            <Link className="btn btn--ghost" to="/contact">
+              Contact
+            </Link>
           </div>
         </div>
       </section>
 
-      <section>
-        <div>
-          <h2>Featured</h2>
-          <p>A quick look at a few projects.</p>
+      <section className="section section-soft">
+        <div className="container">
+          <h2 className="h2">Featured</h2>
+          <p className="muted">A quick look at a few projects.</p>
 
-          <ul>
+          <ul className="list">
             {PROJECTS.slice(0, 3).map((p) => (
-              <li key={p.title}>
-                <strong>{p.title}</strong> — <span>{p.description}</span>
+              <li key={p.title} className="listItem">
+                <strong>{p.title}</strong> —{" "}
+                <span className="muted">{p.description}</span>
               </li>
             ))}
           </ul>
 
-          <div>
-            <Link to="/projects">See all projects →</Link>
+          <div className="mt">
+            <Link className="link" to="/projects">
+              See all projects
+            </Link>
           </div>
         </div>
       </section>
