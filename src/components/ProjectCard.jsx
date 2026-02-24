@@ -31,7 +31,9 @@ const ProjectCard = ({ project }) => {
 
       <div className="pillWrap">
         {project.tags.map((t) => (
-          <span key={t}>{t}</span>
+          <span key={t} className="pill">
+            {t}
+          </span>
         ))}
       </div>
     </article>
