@@ -1,0 +1,13 @@
+.projectCard_top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+
+.projectCard_links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}

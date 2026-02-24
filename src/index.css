@@ -147,6 +147,31 @@ a {
   padding-left: 18px;
 }
 
+.listItem {
+  margin: 10px 0;
+}
+
+
+.divider {
+  width: 56px;
+  height: 3px;
+  border-radius: 999px;
+  background: #6ee7ff;
+  margin-top: 14px;
+  opacity: 0.9;
+}
+
+.sectionHeader {
+  margin-bottom: 28px;
+}
+
+.card {
+  background: #111a33;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 18px;
+}
+
 .grid {
   display: grid;
   gap: 16px;
