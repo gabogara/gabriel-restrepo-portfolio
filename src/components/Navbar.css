@@ -1,0 +1,47 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(11, 16, 32, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar_inner {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  font-family: "Syne", system-ui, sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.brand_accent {
+  color: #6ee7ff;
+}
+
+.brand_text {
+  color: #eaf0ff;
+}
+
+.nav {
+  display: flex;
+  gap: 16px;
+}
+
+.nav_link {
+  color: rgba(234, 240, 255, 0.72);
+  font-weight: 600;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+.nav_link.active {
+  color: #eaf0ff;
+  background: rgba(110, 231, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
