@@ -72,6 +72,10 @@ a {
   max-width: 70ch;
 }
 
+.lead2 {
+  text-align: center;
+}
+
 .muted {
   color: rgba(234, 240, 255, 0.72);
 }
@@ -125,7 +129,7 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 14px;
-  margin-top: 18px;
+  margin-top: 30px;
 }
 
 .pill {
@@ -170,7 +174,7 @@ a {
   background: #111a33;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 14px;
-  padding: 18px;
+  padding: 10px 40px;
 }
 
 .grid {

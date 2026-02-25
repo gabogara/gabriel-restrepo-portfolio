@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import SectionHeader from "../components/SectionHeader";
 import ProjectCard from "../components/ProjectCard";
 import { PROJECTS } from "../data/projects";
@@ -15,6 +16,12 @@ const ProjectsPage = () => {
           </div>
         </div>
       </section>
+      <Link
+        className="btn btn-primary"
+        to="https://github.com/gabogara?tab=repositories"
+      >
+        See more on GitHub
+      </Link>
     </div>
   );
 };

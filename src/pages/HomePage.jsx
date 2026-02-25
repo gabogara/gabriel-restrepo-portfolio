@@ -38,6 +38,12 @@ const HomePage = () => {
             <Link className="btn btn-ghost" to="/contact">
               Contact
             </Link>
+            <Link
+              className="btn btn-ghost"
+              to="https://docs.google.com/document/d/10h70wrxfVimBoMQw0dLHaIFczb0G9MBHXOTwGqsb12s/edit?tab=t.0"
+            >
+              View Resume
+            </Link>
           </div>
         </div>
       </section>

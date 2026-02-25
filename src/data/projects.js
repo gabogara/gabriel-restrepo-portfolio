@@ -39,6 +39,14 @@ export const PROJECTS = [
     live: "https://gabogara.github.io/blackjack-proyect/",
   },
   {
+    title: "GifExpertApp",
+    description:
+      "React app that lets users search and explore GIFs using the Giphy API. Displays results dynamically with a clean, responsive UI and efficient state management using React hooks.",
+    tags: ["React", "Vite", "Giphy API", "React Hooks", "CSS"],
+    github: "https://github.com/gabogara/GifExpertApp",
+    live: null,
+  },
+  {
     title: "Adoptables",
     description:
       "Pet adoption platform powered by the Petfinder API. Implements search filters, pagination, URL state persistence, optimistic updates for favorites, and localStorage-based recently viewed tracking. Built with React Router and CSS Modules.",
