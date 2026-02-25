@@ -35,7 +35,7 @@ a {
 }
 
 .section {
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 .section-soft {
@@ -185,10 +185,12 @@ a {
 
 .home-hero-lead {
   margin: 0 auto;
+  padding-top: 20px;
 }
 
 .home-hero-actions {
   justify-content: center;
+  padding-top: 20px;
 }
 
 .home-photo-section {
@@ -201,6 +203,11 @@ a {
   margin-top: 56px;
 }
 
+.home-photo-container2 {
+  display: flex;
+  justify-content: center;
+}
+
 .profile-photo {
   width: 260px;
   height: 260px;
@@ -208,6 +215,14 @@ a {
   border: 3px solid #6ee7ff;
   overflow: hidden;
   box-shadow: 0 0 32px rgba(110, 231, 255, 0.2);
+}
+
+.profile-photo2 {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: 3px solid #6ee7ff;
+  overflow: hidden;
 }
 
 @media (min-width: 768px) {

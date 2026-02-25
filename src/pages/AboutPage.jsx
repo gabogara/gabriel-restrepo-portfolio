@@ -5,6 +5,17 @@ const AboutPage = () => {
   return (
     <div className="page">
       <section className="section">
+        <div className="container home-photo-container2">
+          <div className="profile-photo2">
+            <img
+              className="profile-photo-img"
+              src="https://i.imgur.com/WqKfE7g.jpeg"
+              alt="Gabriel"
+            />
+          </div>
+        </div>
+      </section>
+      <section className="section">
         <div className="container">
           <SectionHeader title="About" subtitle="My background" />
 
