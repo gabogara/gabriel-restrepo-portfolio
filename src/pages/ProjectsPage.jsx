@@ -16,12 +16,14 @@ const ProjectsPage = () => {
           </div>
         </div>
       </section>
-      <Link
+      <a
         className="btn btn-primary"
-        to="https://github.com/gabogara?tab=repositories"
+        href="https://github.com/gabogara?tab=repositories"
+        target="_blank"
+        rel="noreferrer"
       >
         See more on GitHub
-      </Link>
+      </a>
     </div>
   );
 };
