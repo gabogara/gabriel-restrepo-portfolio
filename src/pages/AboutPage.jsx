@@ -8,13 +8,17 @@ const AboutPage = () => {
         <div className="container">
           <SectionHeader title="About" subtitle="My background" />
 
-          <p className="lead">
-            I’m Gabriel Restrepo. I enjoy building full-stack applications that
-            solve real problems and stay maintainable over time.
-          </p>
-          <p className="lead muted">
-            I focus on clear APIs, reliable data models, and UI that feels
-            straightforward to use.
+          <p className="lead home-hero-lead">
+            I am a Full Stack Software Engineer focused on building reliable and
+            easy to use web applications. I like to work end to end, from
+            translating requirements into clean interfaces to implementing
+            backend logic and data workflows. I'm a very curious and fast
+            learner, and I like to turn ambiguity into clear steps. I also bring
+            strong transferable skills in leadership and high pressure
+            environments: communication, accountability and teamwork. My goal is
+            to join a team where I can contribute immediately, keep improving
+            and deliver measurable impact through thoughtful, well structured
+            work.
           </p>
 
           <div className="stackLg">

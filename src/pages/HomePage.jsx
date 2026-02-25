@@ -21,8 +21,14 @@ const HomePage = () => {
           <p className="kicker">Hi, I am Gabriel</p>
           <h1 className="h1">Full-Stack Software Engineer</h1>
           <p className="lead home-hero-lead">
-            I build practical web apps with clean architecture, thoughtful UX,
-            and real-world features like auth, CRUD, and maps.
+            I am a Full Stack Software Engineer focused on building reliable and
+            easy-to-use web applications. I enjoy translating requirements into
+            clean interfaces and implementing backend logic and data workflows.
+            I leverage my curiosity to turn ambiguity into clear steps, and I
+            thrive as an accountable, highly communicative leader in
+            high-pressure environments. My goal is to join a team where I can
+            make immediately impactful contributions, keep improving, and
+            deliver measurable impact through thoughtful, well-structured work.
           </p>
 
           <div className="actions home-hero-actions">
