@@ -1,16 +1,105 @@
-# React + Vite
+# Gabriel Restrepo Acosta — Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Personal Portfolio](https://i.imgur.com/WJhvP6k.png)
 
-Currently, two official plugins are available:
+I built this portfolio to share my journey into software engineering and to share the projects I’ve worked on, the skills I’ve developed, and the problems I enjoy solving. It represents not just my technical work, but the persistence and curiosity that drive me to keep growing.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Live Demo
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- **Live App:** ([Netlify](https://earnest-boba-4c6571.netlify.app/projects))
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- **Home** — Hero section with a short bio and call-to-action buttons (Projects, Contact, Resume)
+- **About** — Profile photo, extended bio, and a categorized skills grid rendered dynamically from a data file
+- **Projects** — Some of the projects I have been working on recently listing sourced from a central data file with tags/pills
+- **Contact** — Quick-access email and LinkedIn links
+- **404 Page** — Custom not-found route
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Framework | React 18 |
+| Build Tool | Vite |
+| Routing | React Router v6 |
+| Styling | Plain CSS |
+
+---
+
+## Project Structure
+
+```
+src/
+├── assets/
+├── components/
+│   ├── Footer.css / Footer.jsx
+│   ├── Navbar.css / Navbar.jsx
+│   ├── ProjectCard.css / ProjectCard.jsx
+│   └── SectionHeader.jsx
+├── data/
+│   ├── projects.js
+│   ├── skills.js
+│   └── socials.js
+├── layouts/
+│   └── RootLayout.jsx
+├── pages/
+│   ├── AboutPage.jsx
+│   ├── ContactPage.jsx
+│   ├── HomePage.jsx
+│   ├── NotFoundPage.jsx
+│   └── ProjectsPage.jsx
+├── App.css
+├── App.jsx
+├── index.css
+└── main.jsx
+```
+
+---
+
+## Getting Started
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/gabogara/gabriel-restrepo-portfolio.git
+cd gabriel-restrepo-portfolio
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+The app will be available at `http://localhost:5173`.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## Customization
+
+All content is data-driven and easy to update:
+
+- **Projects** → `src/data/projects.js`
+- **Skills** → `src/data/skills.js`
+- **Social links** → `src/data/socials.js`
+
+---
+
+## Contact
+
+- **Email:** [gabriel.acosta.rest@gmail.com](mailto:gabriel.acosta.rest@gmail.com)
+- **LinkedIn:** [in/gabriel-restrepo-acosta](https://www.linkedin.com/in/gabriel-restrepo-acosta/)
+
