@@ -8,7 +8,7 @@ I built this portfolio to share my journey into software engineering and to shar
 
 ## Live Demo
 
-- **Live App:** ([Netlify](https://earnest-boba-4c6571.netlify.app/projects))
+- **Live App:** ([Netlify](https://earnest-boba-4c6571.netlify.app))
 
 ---
 
@@ -24,12 +24,12 @@ I built this portfolio to share my journey into software engineering and to shar
 
 ## Tech Stack
 
-| Layer | Technology |
-|-------|------------|
-| Framework | React 18 |
-| Build Tool | Vite |
-| Routing | React Router v6 |
-| Styling | Plain CSS |
+| Layer      | Technology      |
+| ---------- | --------------- |
+| Framework  | React 18        |
+| Build Tool | Vite            |
+| Routing    | React Router v6 |
+| Styling    | Plain CSS       |
 
 ---
 
@@ -102,4 +102,3 @@ All content is data-driven and easy to update:
 
 - **Email:** [gabriel.acosta.rest@gmail.com](mailto:gabriel.acosta.rest@gmail.com)
 - **LinkedIn:** [in/gabriel-restrepo-acosta](https://www.linkedin.com/in/gabriel-restrepo-acosta/)
-
